@@ -1,0 +1,264 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 768px) {
+.menu-header-wrapper {
+	display: block!important
+}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.site-header, .main-navigation .header-info {
+	text-align: center
+}
+.menu-header-wrapper {
+	display: none
+}
+.main-navigation .menu-container {
+	float: none;
+	padding-bottom: 10px
+}
+.main-navigation li {
+	display: block;
+	float: none;
+	text-align: left;
+}
+.main-navigation ul ul {
+	float: none;
+	position: relative;
+	top: 0;
+	left: 0!important;
+}
+.main-navigation ul ul li {
+	padding-left: 10px
+}
+.main-navigation ul ul li a:hover {
+	background: transparent
+}
+/* burger menu style */
+.burger-menu.site-header {
+	text-align: left;
+	position: relative;
+}
+.burger-menu .main-navigation .header-info, .burger-menu .menu-trigger {
+	display: none!important
+}
+.burger-menu .mobile-menu-trigger {
+	border: none!important;
+	border-radius: 0!important;
+	background-color: transparent;
+	background-image: url(../img/burger-menu.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 28px 17px;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	height: 17px;
+	margin-top: 6px;
+	opacity: 0.25;
+	text-indent: 99999px;
+	text-transform: uppercase;
+	top: 50px;
+	width: 28px;
+	-webkit-transition: all .3s ease 0;
+	-moz-transition: all .3s ease 0;
+	-ms-transition: all .3s ease 0;
+	-o-transition: all .3s ease 0;
+	transition: all .3s ease 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	text-indent: -99999em;
+}
+.burger-menu .menu-burger-container {
+	position: absolute;
+	top: 10px;
+	right: 10px
+}
+.site-header .main-navigation li.menu-item-has-children .menus-mobile-drop-trigger {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	z-index: 5;
+}
+.site-header .main-navigation li.menu-item-has-children .menus-mobile-drop-trigger:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	margin-top: -3px;
+	left: 14px;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-top: 7px solid #666
+}
+.site-header .main-navigation li.menu-item-has-children .menus-mobile-drop-trigger.active:after {
+	border-top: 0;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid #666
+}
+.site-header .main-navigation li.menu-item-has-children ul a {
+	width: 100%;
+}
+.site-header .main-navigation li.menu-item-has-children ul.sub-menu {
+	display: none
+}
+/* sliding left */
+.burger-menu.sliding-left .menu-burger-container {
+	position: absolute;
+	top: 10px;
+	right: auto;
+	left: 10px;
+}
+.burger-menu.sliding-left.site-header {
+	text-align: center;
+}
+.burger-menu.sliding-left .site-logo {
+	width: 80%;
+	max-width: 140px;
+	margin: 0 auto
+}
+.burger-menu.sliding-left .menu-phone-container {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.burger-menu.sliding-left .mobile-phone {
+	border: none!important;
+	border-radius: 0!important;
+	background-color: transparent;
+	background-image: url(../img/burger-menu.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 35px 21px;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	width: 35px;
+	height: 21px;
+	margin-top: 6px;
+	opacity: 0.25;
+	text-indent: 99999px;
+	text-transform: uppercase;
+	top: 50px;
+	-webkit-transition: all .3s ease 0;
+	-moz-transition: all .3s ease 0;
+	-ms-transition: all .3s ease 0;
+	-o-transition: all .3s ease 0;
+	transition: all .3s ease 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	text-indent: -99999em;
+	background-image: url(../img/phone-menu.png);
+}
+body .page-wraper {
+	position: relative;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	left: 0
+}
+body.side-menu-open .page-wraper {
+	position: fixed;
+	left: 240px;
+	width: 100%;
+}
+.mobile-menus {
+	top: 0;
+	left: -240px;
+	position: fixed;
+	width: 240px;
+	height: 100%;
+	overflow: scroll;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+body.side-menu-open .mobile-menus {
+	position: fixed;
+	left: 0px;
+	background: #6D6D6D;
+	color: #fff
+}
+.mobile-menus .inner {
+	position: absolute;
+	width: 100%;
+	padding-bottom: 50px
+}
+.mobile-menus .inner ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+.mobile-menus .inner ul li {
+	position: relative
+}
+.mobile-menus .inner ul li a {
+	display: block;
+	color: #fff;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	padding: 5px
+}
+.mobile-menus .inner ul li a {
+	padding-right: 40px;
+}
+.mobile-menus .inner ul ul {
+	display: none
+}
+.mobile-menus .inner ul ul li a {
+	padding-left: 1em;
+	padding-right: 5px
+}
+.mobile-menus .inner ul li.menus-title {
+	font-size: 30px;
+	background: #4A4A4A;
+	padding: 10px;
+}
+.mobile-menus .menus-mobile-drop-trigger {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	z-index: 5;
+}
+.mobile-menus .menus-mobile-drop-trigger:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	margin-top: -3px;
+	left: 14px;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-top: 7px solid #fff
+}
+.mobile-menus .menus-mobile-drop-trigger.active:after {
+	border-top: 0;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid #fff
+}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+}

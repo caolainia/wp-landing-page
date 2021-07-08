@@ -1,0 +1,151 @@
+# Translation of Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-29 08:26:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Stable (latest release)\n"
+
+#: includes/admin/tracking.php:242
+msgid "Once Weekly"
+msgstr "Once Weekly"
+
+#: includes/admin/review.php:128
+msgid "No thanks"
+msgstr "No thanks"
+
+#: languages/vue.php:2091
+msgid "Usage Tracking"
+msgstr "Usage Tracking"
+
+#: languages/vue.php:1471
+msgid "Hides plugin announcements and update details. This includes critical notices we use to inform about deprecations and important required configuration changes."
+msgstr "Hides plugin announcements and update details. This includes critical notices we use to inform about deprecations and important required configuration changes."
+
+#: languages/vue.php:1474
+msgid "Hide Announcements"
+msgstr "Hide Announcements"
+
+#. Author of the plugin
+#: lite/includes/admin/wp-site-health.php:246
+#: lite/includes/admin/wp-site-health.php:298
+#: lite/includes/admin/wp-site-health.php:325
+#: lite/includes/admin/wp-site-health.php:363
+#: lite/includes/admin/wp-site-health.php:390
+#: lite/includes/admin/wp-site-health.php:417
+#: lite/includes/admin/wp-site-health.php:442
+#: lite/includes/admin/wp-site-health.php:481
+#: lite/includes/admin/dashboard-widget.php:97 includes/admin/admin.php:31
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: includes/emails/class-emails.php:254
+msgid "ExactMetrics"
+msgstr "ExactMetrics"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://exactmetrics.com"
+msgstr "https://exactmetrics.com"
+
+#. Translators: Placeholder is replaced with WPForms.
+#: languages/vue.php:170
+msgid "Recommended Plugin: %s"
+msgstr "Recommended Plugin: %s"
+
+#. Plugin Name of the plugin
+msgid "Google Analytics Dashboard for WP (GADWP)"
+msgstr "Google Analytics Dashboard for WP (GADWP)"
+
+#: languages/vue.php:1136
+msgid "Ecommerce"
+msgstr "Ecommerce"
+
+#: languages/vue.php:303
+msgid "Custom Dimensions"
+msgstr "Custom Dimensions"
+
+#: languages/vue.php:299
+msgid "eCommerce Tracking"
+msgstr "eCommerce Tracking"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:310
+msgid "Other"
+msgstr "Other"
+
+#: languages/vue.php:1190
+msgid "Cross Domain Tracking"
+msgstr "Cross Domain Tracking"
+
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: includes/admin/admin.php:185
+msgid "Settings"
+msgstr "Settings"
+
+#. Description of the plugin
+msgid "Displays Google Analytics Reports and Real-Time Statistics in your Dashboard. Automatically inserts the tracking code in every page of your website."
+msgstr "Displays Google Analytics Reports and Real-Time Statistics in your Dashboard. Automatically inserts the tracking code in every page of your website."
+
+#: languages/vue.php:538
+msgid "Sessions"
+msgstr "Sessions"
+
+#: languages/vue.php:88
+msgid "Real-Time"
+msgstr "Real-Time"
+
+#: languages/vue.php:547
+msgid "Bounce Rate"
+msgstr "Bounce Rate"
+
+#: languages/vue.php:1877
+msgid "Go to the Analytics Dashboard"
+msgstr "Go to the Analytics Dashboard"
+
+#. Translators: Number of days.
+#: languages/vue.php:656
+msgid "Last %s days"
+msgstr "Last %s days"
+
+#: languages/vue.php:199
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: languages/vue.php:866
+msgid "Permissions"
+msgstr "Permissions"
+
+#: languages/vue.php:900
+msgid "Automatic Updates"
+msgstr "Automatic Updates"
+
+#: languages/vue.php:707
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: languages/vue.php:2150
+msgid "Yesterday"
+msgstr "Yesterday"
+
+#: languages/vue.php:2147
+msgid "Today"
+msgstr "Today"
+
+#: languages/vue.php:1042
+msgid "Advanced Tracking"
+msgstr "Advanced Tracking"
+
+#: languages/vue.php:722
+msgid "Events Tracking"
+msgstr "Events Tracking"
+
+#: languages/vue.php:659
+msgid "Analytics"
+msgstr "Analytics"
+
+#: languages/vue.php:1209
+msgid "Enable Enhanced Link Attribution"
+msgstr "Enable Enhanced Link Attribution"
