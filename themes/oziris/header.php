@@ -68,11 +68,6 @@ src="https://www.facebook.com/tr?id=800884093350722&ev=PageView&noscript=1"
 
 
 	<header id="masthead" class="site-header" role="banner">
-
-         
-						
-						
-						
 						
 		<div id="menu">				
 		<div class="menu-inner clearfix">
@@ -85,8 +80,6 @@ src="https://www.facebook.com/tr?id=800884093350722&ev=PageView&noscript=1"
 		
 		<div class="show-mobile menu-anchor"><a href="#">&nbsp;</a></div>
 						
-						
-
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

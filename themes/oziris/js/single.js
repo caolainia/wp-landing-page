@@ -455,8 +455,8 @@ jQuery(function($) {
 
   });
 
-
-
-
-
+  /********QR Scanner Section**********/
+  $(document).ready(function(e) {
+    $(html).find("#qr-reader>div>span>a").remove();
+  });
 })

@@ -1,12 +1,4 @@
 === Qr Code and Barcode Scanner Reader ===
-Contributors: 4wpbari
-Donate Link: https://4wp.it
-Tags: qrcode scan, scanner, reader, qrcode reader, web reader
-Requires at least: 4.9
-Tested up to: 5.7.1
-Stable Tag: 1.0.0
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Qrcode and Barcode scanner reader is a simple but fantastic plugin that allows you to scan barcodes and qr codes via a web page
 
@@ -37,8 +29,6 @@ Parameters used within shortcode (Use px for pixels):
 - `height`
 
 For example: `[qrcodescanner width="400px" height="350px"]`
-
-Visit Our Website for the Demostration - [Visit Demostration](https://4wp.it/plugin/qr-code-and-barcode-scanner-reader/)
 
 = Which browsers does it support? =
 

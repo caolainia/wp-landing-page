@@ -1,7 +1,7 @@
 <?php
 // datastore=auditqueue;
 // created_on=1455941953;
-// updated_on=1629130972;
+// updated_on=1629260475;
 exit(0);
 ?>
 1625789044_5085:"Notice: Oziris, 123.103.208.34; Post status has been changed; details: ID: 1195,Old status: new,New status: auto-draft,Title: Auto Draft"
@@ -17265,3 +17265,14 @@ exit(0);
 1629158026_1787:"Error: 104.248.233.244; User authentication failed: admin"
 1629158356_0734:"Error: 103.28.49.63; User authentication failed: admin"
 1629158500_929:"Error: 103.253.194.228; User authentication failed: admin"
+1629159813_3409:"Warning: Oziris, 127.0.0.1; Plugin activated: QR Code and Barcode Scanner Reader (v1.0.0; qr-code-and-barcode-scanner-reader\/qr-code-and-barcode-scanner-reader.php)"
+1629183432_7014:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1194,Old status: new,New status: auto-draft,Title: Auto Draft"
+1629183486_1127:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1195,Old status: new,New status: auto-draft,Title: Auto Draft"
+1629184680_9056:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1196,Old status: new,New status: auto-draft,Title: Auto Draft"
+1629243219_2689:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1196,Old status: auto-draft,New status: draft,Title: De"
+1629243307_0036:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1197,Old status: new,New status: auto-draft,Title: Auto Draft"
+1629244031_3017:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1197,Old status: auto-draft,New status: draft,Title: De"
+1629245005_5882:"Notice: Oziris, 127.0.0.1; Page status has been changed; details: ID: 1197,Old status: draft,New status: publish,Title: Demo"
+1629245305_7939:"Notice: Oziris, 127.0.0.1; Page was created; ID: 1197; name: Demo"
+1629245606_0184:"Notice: Oziris, 127.0.0.1; Revision status has been changed; details: ID: 1198,Old status: new,New status: inherit,Title: Demo"
+1629245909_4747:"Notice: Oziris, 127.0.0.1; Page was updated; ID: 1197; name: Demo"

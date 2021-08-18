@@ -874,3 +874,41 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', end
     opacity: 0;
   }
 }
+
+/*********QR Scanner************/
+.demo-container{
+    height: auto;
+}
+.scanner-container{
+	width: 350px;
+    height: auto;
+    margin: 0 auto;
+
+}
+.site-content{
+	margin-top: 120px;
+}
+.site-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+#qr-reader-result{
+	text-align: center;
+}
+#demo-iframe{
+
+}
+
+#qr-reader__dashboard_section_swaplink{
+	display: inline-block;
+	padding: 10px 40px 10px 40px;
+	margin-top: 20px;
+	border: 1px solid #5897fb;
+	border-radius: 3px;
+}
+
+#qr-reader__dashboard_section_fsr{
+	margin-top: 10px;
+}
