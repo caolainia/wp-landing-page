@@ -1,9 +1,14 @@
 var resultContainer = document.getElementById("qr-reader-result");
 var lastResult, countResults = 0;
 
+
+console.log(window.location.href);
+
+
 (function($){
     $(document).ready(function(){
-        $("#qr-reader").show(function() { 
+        $("#qr-reader").show(function() {
+            alert(window.location.href); 
             // UI Style for scanner
             $("#qr-reader > div:first-of-type").attr("id", "qr-reader-banner");
             $("#qr-reader-banner > span:first-of-type").attr("id", "qr-reader-banner-span");
@@ -25,6 +30,7 @@ function onScanSuccess(qrCodeMessage) {
     if ( burlReg.test(qrCodeMessage) ) {
         var arr = qrCodeMessage.match(burlReg);
         qrCodeMessage = url + arr[0];
+        
 
         var url = window.location.href;
         if (url.includes('/#scan-using-file')) {
