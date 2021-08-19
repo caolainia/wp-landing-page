@@ -35,8 +35,6 @@
 //         // if it's barcode, redirect to special url with different parameter
 //         console.log(qrCodeMessage);
 //     }
-    
-
 // }
 
 // function onScanFailure(error) {
