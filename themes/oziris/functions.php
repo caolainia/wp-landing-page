@@ -135,12 +135,10 @@ function oziris_scripts() {
 	wp_enqueue_script( 'oziris-single-plugins', get_template_directory_uri() . '/js/single-plugins.js', array('jquery'), '1.3', true );
 	wp_enqueue_script( 'oziris-single', get_template_directory_uri() . '/js/single.js', array('jquery'), '1.3', true );
 
-	// Enqueue Bootstrap 4
-	wp_enqueue_style('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css');
-    wp_enqueue_script( 'boot1','https://code.jquery.com/jquery-3.3.1.slim.min.js', array( 'jquery' ),'',true );
-    wp_enqueue_script( 'boot2','https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', array( 'jquery' ),'',true );
-    wp_enqueue_script( 'boot3','https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', array( 'jquery' ),'',true );
-
+	// Enqueue Oziris Scanner Js
+    wp_enqueue_script('html5_qrcode', get_template_directory_uri() . '/js/html5-qrcode.min.js', array('jquery'), null);
+    wp_enqueue_script('scanner_js',  get_template_directory_uri() . '/js/scanner.js', array('jquery'), '1.0', true);
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		//wp_enqueue_script( 'comment-reply' );
 	}

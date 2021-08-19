@@ -877,16 +877,18 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', end
 
 /*********QR Scanner************/
 .demo-container{
+	margin-top: 120px;
     height: auto;
 }
 .scanner-container{
 	width: 350px;
     height: auto;
     margin: 0 auto;
-
 }
-.site-content{
-	margin-top: 120px;
+.result-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .site-footer{
 	position: fixed;
@@ -897,16 +899,20 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', end
 #qr-reader-result{
 	text-align: center;
 }
-#demo-iframe{
-
-}
 
 #qr-reader__dashboard_section_swaplink{
 	display: inline-block;
 	padding: 10px 40px 10px 40px;
 	margin-top: 20px;
-	border: 1px solid #5897fb;
-	border-radius: 3px;
+	border: 2px solid #fdb816;
+	border-radius: 4px;
+	color: hsl(49, 80%, 50%) !important;
+}
+
+#qr-reader__dashboard_section_csr > div > button {
+	background-color: #fdb816;
+	border-radius: 10px;
+	color: #fff;
 }
 
 #qr-reader__dashboard_section_fsr{

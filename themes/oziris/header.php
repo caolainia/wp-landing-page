@@ -37,11 +37,7 @@
 <?php wp_head(); ?>
 <!-- Facebook Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//connect.facebook.net/en_US/fbevents.js');
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','//connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '800884093350722');
 fbq('track', "PageView");</script>
@@ -50,21 +46,23 @@ src="https://www.facebook.com/tr?id=800884093350722&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-<script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="b320c26f52734fbeaa5541ff79cf958ac1e5f2d0215940a19c603113a6fa8acd",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};if(!o.noaa){z(b+"aa/"+t+'?'+p,false)};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({"app":true});</script>
+<script type="text/javascript">
+(function(o){var b="https://api.autopilothq.com/anywhere/",t="b320c26f52734fbeaa5541ff79cf958ac1e5f2d0215940a19c603113a6fa8acd",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};if(!o.noaa){z(b+"aa/"+t+'?'+p,false)};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({"app":true});
+</script>
 
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-<div class="sticky-newsletter">
-<?php $id = get_option( 'page_on_front' ); ?>
-	<div class="oziris-ads-footer">
-		<div class="oziris-ads-text"> <span class="image"><img src="<?php bloginfo('template_url')?>/img/iphone-hero.png" alt="" /></span> <span class="text"><?php echo get_post_meta($id,'popup_text',true); ?></span> <a href="<?php echo get_post_meta($id,'popup_link',true); ?>"><?php echo get_post_meta($id,'popup_anchor',true); ?></a> </div>
+	<div class="sticky-newsletter">
+	<?php $id = get_option( 'page_on_front' ); ?>
+		<div class="oziris-ads-footer">
+			<div class="oziris-ads-text"> <span class="image"><img src="<?php bloginfo('template_url')?>/img/iphone-hero.png" alt="" /></span> <span class="text"><?php echo get_post_meta($id,'popup_text',true); ?></span> <a href="<?php echo get_post_meta($id,'popup_link',true); ?>"><?php echo get_post_meta($id,'popup_anchor',true); ?></a> </div>
+		</div>
+		<div class="oziris-ads-footer-bg"></div>
+		<div class="close-oziris-ads">&nbsp;</div>
 	</div>
-	<div class="oziris-ads-footer-bg"></div>
-	<div class="close-oziris-ads">&nbsp;</div>
-</div>
 
 
 	<header id="masthead" class="site-header" role="banner">
