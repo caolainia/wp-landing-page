@@ -52,10 +52,11 @@ Template Name: Demo Result
         $url = "https://oziris.com.au/OzirisBackend/web/admin/product-mobile/view?batch_id=" . $_GET["batch_id"];
         ?>
 
-
         <div class="result-container">
-            <iframe class="result-iframe" src="<?php echo $url; ?>"  
-            width="375" height="800" frameborder="0" allowtransparency="true"></iframe>
+
+            <!-- The iframe -->
+            <iframe id="result-frame" class="result-iframe" src="<?php echo $url; ?>"  
+            width="375" height="840" frameborder="0" allowtransparency="true"></iframe>
         </div>
 
 

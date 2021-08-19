@@ -875,7 +875,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', end
   }
 }
 
-/*********QR Scanner************/
+/*********Demo Page************/
 .demo-container{
 	margin-top: 120px;
     height: auto;
@@ -896,25 +896,72 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', end
 	width: 100%;
 }
 
+/*********QR Scanner************/
+#qr-reader {
+	background-color:rgba(255, 255, 255, 0.5);
+}
+#qr-reader-banner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #eee !important;
+}
+#qr-reader-banner-span{
+	font-weight: bold;
+}
+#qr-reader__status_span{
+	background-color: #fdb816 !important;
+	color: white !important;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+/**************QR Scanner Result****************/
 #qr-reader-result{
 	text-align: center;
 }
 
 #qr-reader__dashboard_section_swaplink{
 	display: inline-block;
-	padding: 10px 40px 10px 40px;
+	padding: 10px 65px 10px 65px;
 	margin-top: 20px;
-	border: 2px solid #fdb816;
+	border: 2px solid #198659;
 	border-radius: 4px;
-	color: hsl(49, 80%, 50%) !important;
+	color: #198659 !important;
 }
 
 #qr-reader__dashboard_section_csr > div > button {
-	background-color: #fdb816;
-	border-radius: 10px;
+	background-color: #198659;
+	border-radius: 4px;
 	color: #fff;
+	font-size: 1.2rem;
+	border: 1px solid #198659;
+	padding: 20px 15px 20px 15px !important;
 }
+
 
 #qr-reader__dashboard_section_fsr{
 	margin-top: 10px;
 }
+
+#qr-reader__dashboard_section_csr > span:nth-of-type(2) > button {
+	margin-top: 2rem !important;
+	font-size: 1.2rem;
+	background-color: #198659 !important;
+	color: white;
+	border-radius: 2px;
+	border: 1px solid #198659;
+	padding: 20px 70px 20px 70px;
+}
+
+#qr-reader__camera_selection{
+	padding: 5px 15px 5px 7px;
+	border-radius: 4px;
+}
+
+#qr-reader__dashboard_section_csr > span:first-of-type {
+
+}
+
+/*********Demo Result**********/
