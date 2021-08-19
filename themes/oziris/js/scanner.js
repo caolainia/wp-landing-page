@@ -4,6 +4,8 @@ var lastResult, countResults = 0;
 (function($){
     $(document).ready(function(){
         $("#qr-reader").show(function() { 
+
+            alert(window.location.href);
             // UI Style for scanner
             $("#qr-reader > div:first-of-type").attr("id", "qr-reader-banner");
             $("#qr-reader-banner > span:first-of-type").attr("id", "qr-reader-banner-span");
@@ -33,14 +35,6 @@ function onScanSuccess(qrCodeMessage) {
             var newurl = url.replace('/demo', '/demo-result' + arr[0]);
         }
         
-
-        console.log(newurl);
-        console.log(newurl);
-        console.log(newurl);
-        console.log(newurl);
-        console.log(newurl);
-        console.log(newurl);
-
         window.location.href = newurl;
         
         if (qrCodeMessage !== lastResult) {
