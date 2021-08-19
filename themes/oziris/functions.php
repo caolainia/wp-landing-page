@@ -136,8 +136,8 @@ function oziris_scripts() {
 	wp_enqueue_script( 'oziris-single', get_template_directory_uri() . '/js/single.js', array('jquery'), '1.3', true );
 
 	// Enqueue Oziris Scanner Js
-    wp_enqueue_script('html5_qrcode', get_template_directory_uri() . '/js/html5-qrcode.min.js', array('jquery'), null);
-    wp_enqueue_script('scanner_js',  get_template_directory_uri() . '/js/scanner.js', array('jquery'), '1.0', true);
+    // wp_enqueue_script('html5_qrcode', get_template_directory_uri() . '/js/html5-qrcode.min.js', array('jquery'), null);
+    wp_enqueue_script('scanner_js',  get_template_directory_uri() . '/js/scanner.js', array('jquery'), '1.3', true);
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		//wp_enqueue_script( 'comment-reply' );
@@ -148,7 +148,7 @@ function oziris_scripts() {
         '_nonce' => wp_create_nonce( 'load_more_nonce' ),
 				'ajaxurl' => admin_url( 'admin-ajax.php' )
       )
-  );
+	);
 	
 	
 	
