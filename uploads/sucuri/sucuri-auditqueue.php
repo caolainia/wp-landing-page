@@ -4,11 +4,6 @@
 // updated_on=1629303622;
 exit(0);
 ?>
-1625789044_5085:"Notice: Oziris, 123.103.208.34; Post status has been changed; details: ID: 1195,Old status: new,New status: auto-draft,Title: Auto Draft"
-1625789057_8272:"Notice: Oziris, 123.103.208.34; Post status has been changed; details: ID: 1195,Old status: auto-draft,New status: draft,Title: Auto Draft"
-1625789059_3071:"Notice: Oziris, 123.103.208.34; Revision status has been changed; details: ID: 1196,Old status: new,New status: inherit,Title: Auto Draft"
-1625815851_1538:"Notice: Oziris, 123.103.208.34; Revision status has been changed; details: ID: 1197,Old status: new,New status: inherit,Title: Subscription"
-1625815853_786:"Notice: Oziris, 123.103.208.34; Page was updated; ID: 22; name: Subscription"
 1626420907_4384:"Warning: 20.191.228.83; Post deleted: (multiple entries): Post id: 877,Post author: 7,Post type: customize_changeset,Post status: trash,Post inserted: 2021-06-16 04:11:47,Post modified: 2021-06-16 04:11:47,Post guid: http:\/\/www.oziris.com.au\/86d3f64c-9707-41f5-aa6c-05b3696213df\/,Post title: (empty)"
 1626420907_4616:"Warning: 20.191.228.83; Post deleted: (multiple entries): Post id: 878,Post author: 7,Post type: customize_changeset,Post status: trash,Post inserted: 2021-06-16 04:13:24,Post modified: 2021-06-16 04:13:24,Post guid: http:\/\/www.oziris.com.au\/05dee347-0873-4096-bf41-57dc10ca69ed\/,Post title: (empty)"
 1626565682_0452:"Warning: 20.191.228.83; Post deleted: (multiple entries): Post id: 879,Post author: 7,Post type: customize_changeset,Post status: trash,Post inserted: 2021-06-17 00:46:27,Post modified: 2021-06-17 00:46:27,Post guid: http:\/\/www.oziris.com.au\/6903fab7-ecee-407c-9a5f-6e0cee7bf5e8\/,Post title: (empty)"
