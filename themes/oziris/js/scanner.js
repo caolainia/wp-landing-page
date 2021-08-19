@@ -27,9 +27,21 @@ function onScanSuccess(qrCodeMessage) {
         qrCodeMessage = url + arr[0];
 
         var url = window.location.href;
-        url = url.replace('/#scan-using-file', '-result' + arr[0]);
+        if (url.includes('/#scan-using-file')) {
+            var newurl = url.replace('/#scan-using-file', '-result' + arr[0]);
+        } else {
+            var newurl = url.replace('/demo', '/demo-result' + arr[0]);
+        }
+        
 
-        window.location.href = url;
+        console.log(newurl);
+        console.log(newurl);
+        console.log(newurl);
+        console.log(newurl);
+        console.log(newurl);
+        console.log(newurl);
+
+        window.location.href = newurl;
         
         if (qrCodeMessage !== lastResult) {
             ++countResults;
