@@ -2,7 +2,13 @@
 /**
 Template Name: Demo Result
 */
+if ( isset($_GET["batch_id"]) )  {
+    $url = "https://oziris.com.au/OzirisBackend/web/admin/product-mobile/view?batch_id=" . $_GET["batch_id"];
+} else {
+    wp_redirect(home_url());
+}
 ?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -42,16 +48,9 @@ Template Name: Demo Result
 		<div class="oziris-ads-footer-bg"></div>
 		<div class="close-oziris-ads">&nbsp;</div>
 	</div>
-
-
 	
 
 	<div id="content" class="site-content">
-
-        <?php 
-        $url = "https://oziris.com.au/OzirisBackend/web/admin/product-mobile/view?batch_id=" . $_GET["batch_id"];
-        ?>
-
         <div class="result-container">
 
             <!-- The iframe -->
