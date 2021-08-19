@@ -122,17 +122,12 @@ function oziris_scripts() {
 	$themes_version = '1.6.0';
 	
 	// LOAD GOOGLE FONT
-	
 	wp_enqueue_style( 'google-font','https://fonts.googleapis.com/css?family=Open+Sans:400italic,300italic,600italic,400,300,600,700|Lato:400,700,900|Roboto:700' );
-	
-	
 	
 	//wp_enqueue_style( 'style-grid', get_template_directory_uri() . '/css/grid.css','',$themes_version );
 	wp_enqueue_style( 'style-plugins', get_template_directory_uri() . '/css/plugins.css','',$themes_version );
 	wp_enqueue_style( 'oziris-style', get_stylesheet_uri(),'', $themes_version);
 	
-
-
 
 	wp_enqueue_script( 'oziris-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20120206', true );
 	//wp_enqueue_script( 'oziris-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
@@ -140,6 +135,10 @@ function oziris_scripts() {
 	wp_enqueue_script( 'oziris-single-plugins', get_template_directory_uri() . '/js/single-plugins.js', array('jquery'), '1.3', true );
 	wp_enqueue_script( 'oziris-single', get_template_directory_uri() . '/js/single.js', array('jquery'), '1.3', true );
 
+	// Enqueue Oziris Scanner Js
+    wp_enqueue_script('html5_qrcode', get_template_directory_uri() . '/js/html5-qrcode.min.js', array('jquery'), null);
+    wp_enqueue_script('scanner_js',  get_template_directory_uri() . '/js/scanner.js', array('jquery'), '1.0', true);
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		//wp_enqueue_script( 'comment-reply' );
 	}
